@@ -1,0 +1,12 @@
+E:\App Project\WIS\LauncherAndroid\bin\Debug\LauncherAndroid.dll
+D:\Wave Engine\v1.0\Lib\Android\DolbyAPI.dll
+D:\Wave Engine\v1.0\Lib\Android\WaveEngineAndroid.Adapter.dll
+D:\Wave Engine\v1.0\Lib\Android\WaveEngineAndroid.Common.dll
+D:\Wave Engine\v1.0\Lib\Android\WaveEngineAndroid.Framework.dll
+E:\App Project\WIS\WIS\WISProject\bin\AnyCPU\Debug\WISProjectWP.dll
+E:\App Project\WIS\LauncherAndroid\bin\Debug\WaveEngineAndroid.Physics.dll
+E:\App Project\WIS\LauncherAndroid\bin\Debug\WaveEngineAndroid.Bepu.dll
+E:\App Project\WIS\LauncherAndroid\bin\Debug\WaveEngineAndroid.Farseer.dll
+E:\App Project\WIS\LauncherAndroid\bin\Debug\Zlib.Portable.dll
+E:\App Project\WIS\LauncherAndroid\bin\Debug\WaveEngineAndroid.Components.dll
+E:\App Project\WIS\LauncherAndroid\bin\Debug\WaveEngineAndroid.Materials.dll

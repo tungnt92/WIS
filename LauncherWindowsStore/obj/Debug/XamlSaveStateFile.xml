@@ -1,0 +1,12 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <ReferenceAssembly PathName="d:\wave engine\v1.0\lib\metro\sharpdx.direct3d11.dll" HashGuid="4c05a799-608d-c868-eb22-a8f88fe41ea6" />
+    <ReferenceAssembly PathName="d:\wave engine\v1.0\lib\metro\sharpdx.dll" HashGuid="e12b6747-5621-38e3-6aa9-47a988fc2072" />
+    <ReferenceAssembly PathName="d:\wave engine\v1.0\lib\metro\sharpdx.dxgi.dll" HashGuid="be2c2291-5ada-cf76-cff4-7ac0d0e6682d" />
+    <ReferenceAssembly PathName="d:\wave engine\v1.0\lib\metro\sharpdx.xaudio2.dll" HashGuid="2b85ea77-857b-7a56-644e-8483fa1ef26a" />
+    <ReferenceAssembly PathName="d:\wave engine\v1.0\lib\metro\waveenginemetro.adapter.dll" HashGuid="3326c03a-b3bb-e5e7-09f8-ea7c67651461" />
+    <ReferenceAssembly PathName="d:\wave engine\v1.0\lib\metro\waveenginemetro.common.dll" HashGuid="ea8d9473-b729-6493-949c-ec85ea5403de" />
+    <ReferenceAssembly PathName="d:\wave engine\v1.0\lib\metro\waveenginemetro.framework.dll" HashGuid="ead419d8-c75b-5d30-4614-94d8755d6e30" />
+    <ReferenceAssembly PathName="e:\app project\wis\wis\wisproject\bin\anycpu\debug\wisprojectwp.dll" HashGuid="23c113f6-ba86-dbb4-151d-ba1d380f1d41" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

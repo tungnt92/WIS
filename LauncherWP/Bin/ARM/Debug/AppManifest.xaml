@@ -1,0 +1,21 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="Launcher" EntryPointType="LauncherWP.App" RuntimeVersion="4.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="Launcher" Source="Launcher.dll" />
+    <AssemblyPart x:Name="SharpDX.Direct3D11" Source="SharpDX.Direct3D11.dll" />
+    <AssemblyPart x:Name="SharpDX" Source="SharpDX.dll" />
+    <AssemblyPart x:Name="SharpDX.DXGI" Source="SharpDX.DXGI.dll" />
+    <AssemblyPart x:Name="SharpDX.MediaFoundation" Source="SharpDX.MediaFoundation.dll" />
+    <AssemblyPart x:Name="SharpDX.XAudio2" Source="SharpDX.XAudio2.dll" />
+    <AssemblyPart x:Name="WaveEngineWP.Adapter" Source="WaveEngineWP.Adapter.dll" />
+    <AssemblyPart x:Name="WaveEngineWP.Common" Source="WaveEngineWP.Common.dll" />
+    <AssemblyPart x:Name="WaveEngineWP.Framework" Source="WaveEngineWP.Framework.dll" />
+    <AssemblyPart x:Name="WISProjectWP" Source="WISProjectWP.dll" />
+    <AssemblyPart x:Name="WaveEngineWP.Components" Source="WaveEngineWP.Components.dll" />
+    <AssemblyPart x:Name="WaveEngineWP.Physics" Source="WaveEngineWP.Physics.dll" />
+    <AssemblyPart x:Name="Zlib.Portable" Source="Zlib.Portable.dll" />
+    <AssemblyPart x:Name="WaveEngineWP.Materials" Source="WaveEngineWP.Materials.dll" />
+    <AssemblyPart x:Name="BepuWP" Source="BepuWP.dll" />
+    <AssemblyPart x:Name="FarseerWP" Source="FarseerWP.dll" />
+    <AssemblyPart x:Name="SharpDX.WP8" Source="SharpDX.WP8.dll" />
+  </Deployment.Parts>
+</Deployment>

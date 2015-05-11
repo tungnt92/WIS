@@ -1,0 +1,134 @@
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A04573FB-B7BE-4683-A926-8F323D24D590}</ProjectGuid>
+    <WaveEngineProject>{196BC63C-5C01-4C02-9F24-E720CA3AD406}</WaveEngineProject>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WISProject</RootNamespace>
+    <AssemblyName>WISProjectWP</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>false</SilverlightApplication>
+    <ValidateXaml>true</ValidateXaml>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Optimize>false</Optimize>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\AnyCPU\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Optimize>false</Optimize>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Optimize>true</Optimize>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\AnyCPU\Release\</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Optimize>true</Optimize>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="WaveEngine.Common">
+      <HintPath>$(waveengine)v1.0\Lib\Metro\WaveEngineMetro.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="WaveEngine.Framework">
+      <HintPath>$(waveengine)v1.0\Lib\Metro\WaveEngineMetro.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="WaveEngine.Components">
+      <HintPath>$(waveengine)v1.0\Lib\Metro\WaveEngineMetro.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="WaveEngine.Materials">
+      <HintPath>$(waveengine)v1.0\Lib\Metro\WaveEngineMetro.Materials.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Behaviors\BulletBehavior.cs" />
+    <Compile Include="Behaviors\EnemyBehavior.cs" />
+    <Compile Include="Behaviors\GameplayBehavior.cs" />
+    <Compile Include="Behaviors\PlayerBehavior.cs" />
+    <Compile Include="Behaviors\StarBehavior.cs" />
+    <Compile Include="FireButton.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="GameOverScene.cs" />
+    <Compile Include="GamePlayScene.cs" />
+    <Compile Include="IntroScene.cs" />
+    <Compile Include="Joystick.cs" />
+    <Compile Include="Managers\BulletManager.cs" />
+    <Compile Include="Managers\GameStorage.cs" />
+    <Compile Include="Managers\SoundManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Fonts.cs" />
+    <Compile Include="Resources\Sounds.cs" />
+    <Compile Include="Resources\Textures.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources.weproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SplashScreenImage.screen-720p.jpg" />
+    <Content Include="SplashScreenImage.screen-WVGA.jpg" />
+    <Content Include="SplashScreenImage.screen-WXGA.jpg" />
+  </ItemGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+	-->
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <Import Project="$(WaveEngine)v1.0\Targets\Metro\WPKAssetsExport.targets" />
+  <PropertyGroup />
+  <PropertyGroup Condition="  '$(VisualStudioVersion)' == '' ">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+</Project>

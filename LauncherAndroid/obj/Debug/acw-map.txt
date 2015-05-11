@@ -1,0 +1,10 @@
+LauncherAndroid.AndroidActivity;launcherandroid.AndroidActivity
+Com.Dolby.Dap.IOnDolbyAudioProcessingEventListenerImplementor;mono.com.dolby.dap.OnDolbyAudioProcessingEventListenerImplementor
+WaveEngine.Adapter.Application;waveengine.adapter.Application
+WaveEngine.Adapter.ChangeViewCountDown;waveengine.adapter.ChangeViewCountDown
+WaveEngine.Adapter.GLView;waveengine.adapter.GLView
+WaveEngine.Adapter.Input.AndroidCompassListener;waveengine.adapter.input.AndroidCompassListener
+WaveEngine.Adapter.Input.AndroidAccelerometerListener;waveengine.adapter.input.AndroidAccelerometerListener
+WaveEngine.Adapter.Input.AndroidGyroscopeListener;waveengine.adapter.input.AndroidGyroscopeListener
+WaveEngine.Adapter.Media.Dolby.DolbyEventListener;waveengine.adapter.media.dolby.DolbyEventListener
+WaveEngineAndroid.Adapter.SplashView;waveengineandroid.adapter.SplashView

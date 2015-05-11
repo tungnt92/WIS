@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="Resources" Version="1">
+  <Profiles>
+    <Profile Name="Windows" Platform="Windows" LowQualityCompressionFormat="R8G8B8A8" HighQualityCompressionFormat="R8G8B8A8" />
+    <Profile Name="WP" Platform="WP" LowQualityCompressionFormat="DXT1" HighQualityCompressionFormat="DXT5" />
+    <Profile Name="Metro" Platform="Metro" LowQualityCompressionFormat="DXT1" HighQualityCompressionFormat="DXT5" />
+    <Profile Name="iOS" Platform="iOS" LowQualityCompressionFormat="PVRTC2BPP" HighQualityCompressionFormat="PVRTC4BPP" />
+    <Profile Name="Android" Platform="Android" LowQualityCompressionFormat="ETC1RGB8" HighQualityCompressionFormat="R8G8B8A8" />
+    <Profile Name="Mac" Platform="Mac" LowQualityCompressionFormat="R8G8B8A8" HighQualityCompressionFormat="R8G8B8A8" />
+    <Profile Name="Linux" Platform="Linux" LowQualityCompressionFormat="R8G8B8A8" HighQualityCompressionFormat="R8G8B8A8" />
+  </Profiles>
+  <Assets>
+    <Asset Path="BestScore.png" Hash="9b1dbf2f209656a96ad8a95edb541abc">
+      <ExportProperties>
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" ExportVersion="1.0.0.0" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="bg_planets.PNG" Hash="4ddb382652096f4f0ccd425340386772">
+      <ExportProperties>
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" ExportVersion="1.0.0.0" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="bg_space.PNG" Hash="92bd77ba7e349a1636d06e9a846d315e">
+      <ExportProperties>
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" ExportVersion="1.0.0.0" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="blast0.wav" Hash="a3844b19bc1b3266dee1f492609b90d2">
+      <ExportProperties>
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Sound.SoundEffect" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Sound.SoundEffect" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Sound.SoundEffect" ExportVersion="1.0.0.0" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="blast1.wav" Hash="18868229fbfe2e6bc7e993511fad0485">
+      <ExportProperties>
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Sound.SoundEffect" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Sound.SoundEffect" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Sound.SoundEffect" ExportVersion="1.0.0.0" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="blast2.wav" Hash="b6e3ba2a46ac346979318cf947a6d806">
+      <ExportProperties>
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Sound.SoundEffect" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Sound.SoundEffect" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Sound.SoundEffect" ExportVersion="1.0.0.0" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="Bullet.png" Hash="c522dd401d251bc7b6591cd8eaa9e8f6">
+      <ExportProperties>
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" ExportVersion="1.0.0.0" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="BulletCollider.png" Hash="c522dd401d251bc7b6591cd8eaa9e8f6">
+      <ExportProperties>
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" ExportVersion="1.0.0.0" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="BulletCollider_.png" Hash="d0810446c729cde2d6d8aca01d982550">
+      <ExportProperties>
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" ExportVersion="1.0.0.0" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="DeepSpace_logo.PNG" Hash="0bc5735ee71c03792de56323f37cb839">
+      <ExportProperties>
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" ExportVersion="1.0.0.0" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="Enemy.PNG" Hash="d2bc4d548c0b6059b181524052844a8e">
+      <ExportProperties>
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" ExportVersion="1.0.0.0" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="EnemyBullet.png" Hash="3f8dd07c6f82e338c6c2b33fb602cfe7">
+      <ExportProperties>
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" ExportVersion="1.0.0.0" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="EnemyBulletCollider.png" Hash="3f8dd07c6f82e338c6c2b33fb602cfe7">
+      <ExportProperties>
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" ExportVersion="1.0.0.0" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="EnemyCollider.PNG" Hash="7db4d536b721da494d7f261d5470bd1d">
+      <ExportProperties>
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" ExportVersion="1.0.0.0" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="explode0.wav" Hash="c2338454960a9cc9b1f772b5fa487039">
+      <ExportProperties>
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Sound.SoundEffect" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Sound.SoundEffect" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Sound.SoundEffect" ExportVersion="1.0.0.0" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="explode1.wav" Hash="1f80cf43b82d71312c0483036bb3cbe4">
+      <ExportProperties>
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Sound.SoundEffect" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Sound.SoundEffect" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Sound.SoundEffect" ExportVersion="1.0.0.0" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="explode2.wav" Hash="9525fe7b69c214a1d5dd87c08f2e895b">
+      <ExportProperties>
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Sound.SoundEffect" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Sound.SoundEffect" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Sound.SoundEffect" ExportVersion="1.0.0.0" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ChannelFormat="Stereo" AudioQuality="High" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="explodeSprite.png" Hash="7a96be2a814fdfd674ec88a24e1929ba">
+      <ExportProperties>
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" ExportVersion="1.0.0.0" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="GameOver.PNG" Hash="7b7035472f03a0a5780ee6d0b0f09be0">
+      <ExportProperties>
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" ExportVersion="1.0.0.0" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="joystickBackground.png" Hash="5084227b167d709fc936927756c780ff">
+      <ExportProperties>
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" ExportVersion="1.0.0.0" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="joystickThumb.png" Hash="5776c3264532d9ba04706496597af21a">
+      <ExportProperties>
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" ExportVersion="1.0.0.0" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="Player.png" Hash="151788542876372e9fbb51660edd7dea">
+      <ExportProperties>
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" ExportVersion="1.0.0.0" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="PlayerCollider.png" Hash="151788542876372e9fbb51660edd7dea">
+      <ExportProperties>
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" ExportVersion="1.0.0.0" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="PressStart.PNG" Hash="2426205d4901a40dff324baa14fa9f61">
+      <ExportProperties>
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" ExportVersion="1.0.0.0" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="restart.png" Hash="acc4f16dee0fa164194cc575a958871e">
+      <ExportProperties>
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" ExportVersion="1.0.0.0" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="score.png" Hash="d3528f4bb816ddf371ce50e6000446a9">
+      <ExportProperties>
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" ExportVersion="1.0.0.0" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="Space Age.spr" Hash="6ea90b13b4195da3f5d0e45f35a1af31">
+      <ExportProperties>
+        <Export Bold="False" Italic="False" Size="16" Spacing="0" InnerSpacing="0" DefaultCharacter="*" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.SpriteFont" />
+        <Export Bold="False" Italic="False" Size="16" Spacing="0" InnerSpacing="0" DefaultCharacter="*" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.SpriteFont" />
+        <Export Bold="False" Italic="False" Size="16" Spacing="0" InnerSpacing="0" DefaultCharacter="*" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export Bold="False" Italic="False" Size="16" Spacing="0" InnerSpacing="0" DefaultCharacter="*" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export Bold="False" Italic="False" Size="16" Spacing="0" InnerSpacing="0" DefaultCharacter="*" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.SpriteFont" ExportVersion="1.0.0.0" />
+        <Export Bold="False" Italic="False" Size="16" Spacing="0" InnerSpacing="0" DefaultCharacter="*" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export Bold="False" Italic="False" Size="16" Spacing="0" InnerSpacing="0" DefaultCharacter="*" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="Star.jpg" Hash="c40df4f953c88dc65fcbfa76fead8231">
+      <ExportProperties>
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" ExportVersion="1.0.0.0" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+  </Assets>
+</Project>
